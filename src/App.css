@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.addTask {
+  margin-bottom: 20px;
+}
+
+.addTask input {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.addTask select {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.addTask button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addTask button:hover {
+  background: #0056b3;
+}
+
+.board {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  background: white;
+  min-height: 400px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.column h2 {
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.task {
+  background: #e9f5ff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.task h3 {
+  margin: 0;
+}
+
+.task p {
+  margin: 5px 0;
+}
+
+.task button {
+  margin: 5px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task button:first-of-type {
+  background: green;
+  color: white;
+}
+
+.task button:last-of-type {
+  background: red;
+  color: white;
+}
+.task input{
+width:90%;
+padding:8px;
+margin-bottom:10px;
+}
+
+.task button{
+margin:5px;
+padding:6px 10px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+.searchBox {
+  margin: 20px 0;
+}
+
+.searchBox input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.high {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.medium {
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.low {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
